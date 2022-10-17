@@ -1,20 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Search from "./search.js";
 
-import "./App.css";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <div className="App">
-      <div className="App">
-        <h1>Weather Search Engine</h1>
-      </div>
-      <br />
-      <Search />
-    </div>
+    <App />
   </StrictMode>
 );
+
