@@ -13,22 +13,7 @@ root.render(
 
     <App />
 
-{/* 
-    <App /> */}
-{/* 
-    <div className="App">
-      <div className="App">
-        <h1>Weather Search Engine</h1>
-      </div>
-      <br />
-      <Search />
-     <small>
-        <a href="https://github.com/kstasy/weaterapp" target="_blank">
-          Open-source code
-        </a>
-        by Anastasiia Kolomiiets
-      </small>
-    </div> */}
+
 
   </StrictMode>
 );
